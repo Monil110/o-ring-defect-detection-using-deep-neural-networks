@@ -1214,4 +1214,5 @@ async def post(file: UploadFile, model: str):
         )
 
 
-serve()
+if __name__ == "__main__":
+    serve()
